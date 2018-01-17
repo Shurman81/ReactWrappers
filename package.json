@@ -26,10 +26,10 @@
   "homepage": "https://github.com/vasanthk/react-es6-webpack-boilerplate",
   "dependencies": {
     "babel-runtime": "^6.3.19",
-    "devextreme": "^16.2.3",
+    "devextreme": "^17.2.4",
     "jquery": "^2.2.4",
-    "react": "^0.14.5",
-    "react-dom": "^0.14.5"
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   },
   "devDependencies": {
     "babel-core": "^6.3.21",

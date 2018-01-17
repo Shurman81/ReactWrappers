@@ -1,8 +1,9 @@
 import React, {Component} from 'react';
 import ReactDxButton from './ui/button';
 import ReactDxList from './ui/list';
+import ReactDxTagBox from './ui/tagbox';
 import ReactDxScrollView from './ui/scroll-view';
-import {render} from 'react-dom';
+import ReactDOM from 'react-dom';
 
 class ButtonTemplate extends Component {
   render() {
@@ -74,7 +75,7 @@ export default class App extends Component {
           <MyItemTemplate templateFor='item' />
           <MyGroupTemplate templateFor='group' />
         </ReactDxList>
-
+        <ReactDxTagBox items={["item1", "item2"]} value={ ["item1"] }></ReactDxTagBox>
         <ReactDxScrollView height="100px">
           <p>
             A lot of content A lot of content A lot of content A lot of content A lot of content A lot of content A lot of content A lot of content A lot of content A lot of content 
